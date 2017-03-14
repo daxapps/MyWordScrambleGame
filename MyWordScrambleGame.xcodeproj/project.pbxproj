@@ -13,6 +13,7 @@
 		E05BDD651E78529F0045F6C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05BDD641E78529F0045F6C9 /* Assets.xcassets */; };
 		E05BDD681E78529F0045F6C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05BDD661E78529F0045F6C9 /* LaunchScreen.storyboard */; };
 		E05BDD731E78529F0045F6C9 /* MyWordScrambleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BDD721E78529F0045F6C9 /* MyWordScrambleGameTests.swift */; };
+		E05BDD7E1E7853D90045F6C9 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = E05BDD7D1E7853D90045F6C9 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E05BDD6E1E78529F0045F6C9 /* MyWordScrambleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWordScrambleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05BDD721E78529F0045F6C9 /* MyWordScrambleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWordScrambleGameTests.swift; sourceTree = "<group>"; };
 		E05BDD741E78529F0045F6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05BDD7D1E7853D90045F6C9 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E05BDD641E78529F0045F6C9 /* Assets.xcassets */,
 				E05BDD661E78529F0045F6C9 /* LaunchScreen.storyboard */,
 				E05BDD691E78529F0045F6C9 /* Info.plist */,
+				E05BDD7D1E7853D90045F6C9 /* start.txt */,
 			);
 			path = MyWordScrambleGame;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05BDD681E78529F0045F6C9 /* LaunchScreen.storyboard in Resources */,
+				E05BDD7E1E7853D90045F6C9 /* start.txt in Resources */,
 				E05BDD651E78529F0045F6C9 /* Assets.xcassets in Resources */,
 				E05BDD631E78529F0045F6C9 /* Main.storyboard in Resources */,
 			);
@@ -412,6 +416,7 @@
 				E05BDD791E78529F0045F6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05BDD7A1E78529F0045F6C9 /* Build configuration list for PBXNativeTarget "MyWordScrambleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				E05BDD7C1E78529F0045F6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
